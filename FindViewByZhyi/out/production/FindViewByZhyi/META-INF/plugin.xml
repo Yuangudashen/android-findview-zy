@@ -1,0 +1,35 @@
+<idea-plugin version="2">
+    <id>FindViewBy.Zhyi</id>
+    <name>FindViewByZhyi</name>
+    <version>1.0</version>
+    <vendor email="314762933@qq.com" url="https://my.oschina.net/u/2606060/home">zhangyi</vendor>
+
+    <description>Auto generate findview code</description>
+
+    <change-notes>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="141.0"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <depends>com.intellij.modules.lang</depends>
+    <actions>
+        <!-- Add your actions here -->
+        <action id="FindViewByZZhyi" class="com.avast.android.butterknifezelezny.FindView" text="FindView"
+                description="Auto generate findview code">
+            <add-to-group group-id="GenerateGroup" anchor="first"/>
+        </action>
+    </actions>
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationConfigurable instance="com.avast.android.butterknifezelezny.Settings"/>
+        <codeInsight.lineMarkerProvider language="JAVA"
+                                        implementationClass="com.avast.android.butterknifezelezny.navigation.NavigationMarkerProvider"/>
+    </extensions>
+
+</idea-plugin>
