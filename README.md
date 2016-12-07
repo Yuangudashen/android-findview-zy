@@ -1,4 +1,4 @@
-# android-findview-zy
+# Android-findview-zy
 Android Studio plug-in for generating findview code from selected layout XML. According to the ButterKnifeZelezny.  
 # How to install
 download FindViewByZhyi.jar and install in Android Studio: go to  Preferences → Plugins → Install plugin from disk
