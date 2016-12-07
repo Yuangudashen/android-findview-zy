@@ -1,7 +1,7 @@
 # Android-findview-zy
 Android Studio plugin for generating findview and clickListener code from selected layout XML.  
 # How to install
-download FindViewByZhyi.jar and install in Android Studio: go to  Preferences → Plugins → Install plugin from disk
+download [FindViewByZhyi.jar](FindViewByZhyi.jar) and install in Android Studio: go to  Preferences → Plugins → Install plugin from disk
 # How to use it
 ![](images/findview.gif)     
 1.Right click on usage of desired layout reference (e.g. R.layout.main in your Activity or Fragment), then Generate,then findview.   
